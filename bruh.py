@@ -200,12 +200,6 @@ async def bank(ctx, arg=None, val=None):
 						new = row[0]-int(val)
 						ReplaceValue('money', new, ctx.author.id)
 						await ctx.reply('Успешно')
-#---------------------#
-#Reaction Factory#
-@bot.event
-async def on_reaction_add(payload):
-        if payload.emoji.name == 'tada':
-        	print('bruh')
 #--------------------#
 #==for admin==#
 #---------------------#
