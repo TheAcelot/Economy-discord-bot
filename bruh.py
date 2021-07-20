@@ -7,11 +7,11 @@ from DataBase import * #DataBase manager
 from config import creator, botID
 conn = sqlite3.connect('database.db')
 cursor = conn.cursor()
-token = '' #ваш токен // your toke
+token = '' #ваш токен // your token
 if token == None or token == '':
 	print('No token!\n')
 prefix = '+' #ваш префикс // your prefix
-bot = commands.Bot(command_prefix = prefix,  intents = discord.Intents.all()) #включите intents в настройках бота// please enable intents on discord dev app
+bot = commands.Bot(command_prefix = prefix,  intents = discord.Intents.all())
 bot.remove_command('help')
 
 #lists
