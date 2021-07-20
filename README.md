@@ -54,3 +54,9 @@
 	Вы можете изменить стартовые ресурсы участников в файле config.py
 ## Нужна помощь? [Зайдите в мой дискорд сервер](https://discord.gg/UtaPcgENxS)
 
+## Лицензия
+
+### GNU General Public License v3.0-only
+
+[Подробнее](http://www.gnu.org/licenses/#GPL)
+
